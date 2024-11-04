@@ -361,6 +361,9 @@ void calculatePortfolioStats() {
             strncpy(worstStock, portfolio[i].symbol, MAX_SYMBOL);
         }
     }
+
+    
+    
     
     printf("\nPortfolio Statistics:\n");
     printf("--------------------------------------------------------------\n");
@@ -370,6 +373,23 @@ void calculatePortfolioStats() {
     printf("Best Performing Stock: %s (%.2f)\n", bestStock, highestValue);
     printf("Worst Performing Stock: %s (%.2f)\n", worstStock, lowestValue);
     printf("Portfolio Diversity: %d stocks\n", portfolioCount);
+}
+
+void sortStocksByPrice(int ascending) {
+    if (stockCount <= 1) return; // No need to sort if there is one or no stock
+
+    for (int i = 0; i < stockCount - 1; i++) {
+        for (int j = 0; j < stockCount - i - 1; j++) {
+            // Determine the condition based on sorting order
+            int condition = (ascending == 0) ? (stocks[j].currentPrice > stocks[j + 1].currentPrice) : (stocks[j].currentPrice < stocks[j + 1].currentPrice);
+            if (condition) {
+                // Swap stocks[j] and stocks[j + 1]
+                Stock temp = stocks[j];
+                stocks[j] = stocks[j + 1];
+                stocks[j + 1] = temp;
+            }
+        }
+    }
 }
 
 // Main function with sample usage
@@ -415,6 +435,9 @@ updatePrice("EABL", 162.75);    // Slight pullback
 updatePrice("KNGEN", 5.45);     // Partial recovery
     
     // Display information
+
+    //sortStocksByPrice(1);   //sort in descending order 
+    sortStocksByPrice(0);   //sort in ascending order 
     displayPortfolio();
     displayTransactionHistory();
     displayMarketTrends();

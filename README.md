@@ -37,7 +37,7 @@ The Stock Trading System is a simple command-line application that simulates a s
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ASHFAQ-ISSAK/stock-trading-v1
    cd stock-trading-system
 
 2. Compile the code:

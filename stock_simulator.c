@@ -8,6 +8,8 @@
 #define MAX_TRANSACTIONS 1000
 
 // Structure definitions
+// Represents a stock with attributes like symbol, price, quantity, and price history
+
 typedef struct {
     char symbol[MAX_SYMBOL];
     double currentPrice;
@@ -16,12 +18,14 @@ typedef struct {
     int historyCount;
 } Stock;
 
+// Represents a portfolio entry for a stock that a user has bought
 typedef struct {
     char symbol[MAX_SYMBOL];
     int quantity;
     double buyPrice;
 } Portfolio;
 
+// Represents a single buy or sell transaction
 typedef struct {
     char symbol[MAX_SYMBOL];
     char type;  // 'B' for buy, 'S' for sell
@@ -31,11 +35,13 @@ typedef struct {
 } Transaction;
 
 // Global variables
-Stock *stocks = NULL;
+// Dynamic arrays for storing stocks, portfolio items, and transactions
+
+Stock *stocks = NULL;             //Array of Stock structures
 int stockCount = 0;
-Portfolio *portfolio = NULL;
+Portfolio *portfolio = NULL;      //Array of Portfolio structures
 int portfolioCount = 0;
-Transaction *transactions = NULL;
+Transaction *transactions = NULL; //Array of Transaction structures
 int transactionCount = 0;
 
 // Function prototypes

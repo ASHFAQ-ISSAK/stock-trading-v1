@@ -2,7 +2,7 @@
 ## A Simple Guide for Students
 
 ---
-## 1. What Does Our Program Do? ðŸŽ¯
+## 1. What Does Our Program Do? 
 
 Our program simulates a simple stock trading system where you can:
 - Buy and sell stocks
@@ -12,7 +12,7 @@ Our program simulates a simple stock trading system where you can:
 - Analyze market trends
 
 ---
-## 2. Main Components ðŸ—ï¸
+## 2. Main Components ¸
 
 Think of our program like a bank with three main storage boxes:
 
@@ -34,7 +34,7 @@ Think of our program like a bank with three main storage boxes:
 ```
 
 ---
-## 3. How Data is Stored ðŸ“Š
+## 3. How Data is Stored 
 
 ### Stock Information
 ```c
@@ -64,7 +64,7 @@ Think of our program like a bank with three main storage boxes:
 ```
 
 ---
-## 4. Main Features ðŸ”§
+## 4. Main Features 
 
 ### Buying Stocks
 1. Check if stock exists
@@ -80,7 +80,7 @@ Think of our program like a bank with three main storage boxes:
 4. Record the transaction
 
 ---
-## 5. Real-World Example ðŸŒ
+## 5. Real-World Example 
 
 Let's follow a simple trading scenario:
 
@@ -101,7 +101,7 @@ Let's follow a simple trading scenario:
 ```
 
 ---
-## 6. How We Display Information ðŸ“Š
+## 6. How We Display Information 
 
 ### Portfolio View
 ```plaintext
@@ -118,7 +118,7 @@ SCOM    27.80         +2.30    ++++-+
 ```
 
 ---
-## 7. Program Flow ðŸ”„
+## 7. Program Flow „
 
 ```mermaid
 graph TD
@@ -136,7 +136,7 @@ graph TD
 ```
 
 ---
-## 8. Testing the Program ðŸ§ª
+## 8. Testing the Program 
 
 Sample Commands:
 ```c
@@ -154,7 +154,7 @@ sellStock("SCOM", 400);
 ```
 
 ---
-## 9. Key Learning Points ðŸ“š
+## 9. Key Learning Points 
 
 1. **Data Organization**
    - How to store related information together
@@ -169,7 +169,7 @@ sellStock("SCOM", 400);
    - How to track profits and losses
 
 ---
-## 10. Questions for Discussion ðŸ’­
+## 10. Questions for Discussion ’­
 
 1. Why do we need to store the transaction history?
 2. How does the program calculate profits and losses?
@@ -177,7 +177,7 @@ sellStock("SCOM", 400);
 4. How could we improve this system?
 
 ---
-## Thank You! ðŸ™
+## Thank You! ™
 
 Remember:
 - Start with understanding the basic structures

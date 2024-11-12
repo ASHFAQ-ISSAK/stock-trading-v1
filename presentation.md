@@ -17,17 +17,17 @@ Our program simulates a simple stock trading system where you can:
 Think of our program like a bank with three main storage boxes:
 
 ```
-ðŸ“¦ Stocks Box
+ Stocks Box
 - Holds all available stocks
 - Keeps track of prices
 - Tracks available quantities
 
-ðŸ‘¤ Portfolio Box
+ Portfolio Box
 - Your personal stock holdings
 - How many shares you own
 - What price you bought them at
 
-ðŸ“ Transaction Box
+ Transaction Box
 - Record of all trades
 - When they happened
 - What price they were at

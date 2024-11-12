@@ -1,5 +1,5 @@
 # Understanding Our Stock Trading System
-## A Simple Guide for Students
+## A Simple Guide for The project
 
 ---
 ## 1. What Does Our Program Do? 

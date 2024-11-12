@@ -170,16 +170,9 @@ sellStock("SCOM", 400);
 
 ---
 ## 10. Questions for Discussion ’­
-
-1. Why do we need to store the transaction history?
-2. How does the program calculate profits and losses?
-3. Why do we track price history for each stock?
-4. How could we improve this system?
+ How could we improve this system?
 
 ---
 ## Thank You! ™
 
-Remember:
-- Start with understanding the basic structures
-- Follow the flow of data
-- Think about how each action affects different parts of the system
+
